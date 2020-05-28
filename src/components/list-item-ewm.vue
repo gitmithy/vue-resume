@@ -33,17 +33,17 @@ export default {
 <style lang="less">
 .ewminfotitle {
   text-align: center;
-  padding: 5px 0;
+  padding: 0px 0;
 }
 .ewmimage {
-  width: 40%;
+  width: 35%;
   margin: 0 auto;
   text-align: center;
 }
 .list-item-ewminfo {
   text-align: center;
   display: block;
-  line-height: 10px;
+  line-height: 5px;
   padding: 5px 0;
   .img {
     margin: 0 20px 0 15px;

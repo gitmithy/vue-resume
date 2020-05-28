@@ -71,7 +71,7 @@
       <button @click="print">打印</button>
     </div>
     <div class="footer">
-      <a href="https://github.com/gitmithy/vue-resume" target="_blank">
+      <a href="https://github.com/gitmithy" target="_blank">
         <img src="./assets/social-github.png" height="36" width="36" alt />
       </a>
     </div>

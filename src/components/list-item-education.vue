@@ -1,5 +1,6 @@
 <template>
     <ListItem class="list-item-education">
+        <div class="education_head">
         <div class="school">
             <span contenteditable="true" v-html="data.school"/>
         </div>
@@ -9,6 +10,9 @@
         <div class="date">
             <span contenteditable="true" v-html="data.date"/>
         </div>
+        </div>
+
+        <p class="education_desc" contenteditable="true" v-html="data.description"/>
     </ListItem>
 </template>
 <script>
@@ -40,12 +44,22 @@ export default {
 
 </script>
 <style lang="less">
-.list-item-education {
-    font-size: 14px;
-    font-weight: bold;
+.education_head{
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
+    font-weight: bold;    
+}
+.education_desc{
+    
+}
+.list-item-education {
+    font-size: 14px;
+    
+    // display: flex;
+    // justify-content: space-between;
+    // margin-bottom: 16px;
 
     .school {
         width: 40%
