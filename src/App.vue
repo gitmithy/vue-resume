@@ -42,18 +42,7 @@
         </ContextList>
       </div>
       <div class="right">
-        <ContextList title="自我介绍">
-          <ListItemAbout slot="listItem" :data="defaultData.AboutMe" />
-        </ContextList>
 
-        <ContextList title="工作经历">
-          <ListItemExperience
-            slot="listItem"
-            v-for="item in defaultData.WorkingExperience"
-            :data="item"
-            :key="item.compony"
-          />
-        </ContextList>
         <ContextList title="教育经历">
           <ListItemEducation
             slot="listItem"
@@ -62,6 +51,18 @@
             :key="item.school"
           />
         </ContextList>
+        <ContextList title="工作经历">
+          <ListItemExperience
+            slot="listItem"
+            v-for="item in defaultData.WorkingExperience"
+            :data="item"
+            :key="item.compony"
+          />
+        </ContextList>
+
+        <ContextList title="自我评价">
+          <ListItemAbout slot="listItem" :data="defaultData.AboutMe" />
+        </ContextList>        
       </div>
     </div>
     <!-- <Guide /> -->

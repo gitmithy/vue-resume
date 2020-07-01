@@ -4,7 +4,7 @@ export default {
         position: 'Front-End',
         location: '上海',
         sex: '男',
-        age: 26,
+        age: 27,
         degree: '本科'
     },
     Contact: [
@@ -18,10 +18,9 @@ export default {
     ],
     Skill: [
         { icon: require('@/assets/skill-vue.png'), key: 'vue', value: 'Vue' },
-        { icon: require('@/assets/skill-React.png'), key: 'react', value: 'react' },
+        // { icon: require('@/assets/skill-React.png'), key: 'react', value: 'react' },
         { icon: require('@/assets/skill-miniapp.png'), key: 'miniapp', value: 'miniapp' },
         { icon: require('@/assets/skill-uni.png'), key: 'uni', value: 'uni' },
-        { icon: require('@/assets/skill_echart.png'), key: 'echart', value: 'echart' },
         { icon: require('@/assets/skill-node.png'), key: 'node', value: 'Node' },
         { icon: require('@/assets/skill-php.png'), key: 'php', value: 'php' }
         // { icon: require('@/assets/skill-mongo.png'), key: 'mongodb', value: 'MongoDB' }
