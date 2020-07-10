@@ -67,7 +67,7 @@
     </div>
     <!-- <Guide /> -->
     <div class="actions">
-      <button @click="saveAsImage">保存为图片</button>
+      <!-- <button @click="saveAsImage">保存为图片</button> -->
       <!-- <button @click="saveAsPdf">Save as PDF</button> -->
       <button @click="print">打印</button>
     </div>

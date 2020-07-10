@@ -17,12 +17,15 @@ export default {
         { icon: require('@/assets/social-blog.png'), key: 'blog', value: 'blog.miku.work' }
     ],
     Skill: [
+        { icon: require('@/assets/skill-html.png'), key: 'html', value: 'html' },
+        { icon: require('@/assets/skill-css.png'), key: 'css', value: 'css' },
+        { icon: require('@/assets/skill-javascript.png'), key: 'javascript', value: 'javascript' },
         { icon: require('@/assets/skill-vue.png'), key: 'vue', value: 'Vue' },
         // { icon: require('@/assets/skill-React.png'), key: 'react', value: 'react' },
         { icon: require('@/assets/skill-miniapp.png'), key: 'miniapp', value: 'miniapp' },
         { icon: require('@/assets/skill-uni.png'), key: 'uni', value: 'uni' },
-        { icon: require('@/assets/skill-node.png'), key: 'node', value: 'Node' },
-        { icon: require('@/assets/skill-php.png'), key: 'php', value: 'php' }
+        { icon: require('@/assets/skill-node.png'), key: 'node', value: 'Node' }
+        // { icon: require('@/assets/skill-php.png'), key: 'php', value: 'php' }
         // { icon: require('@/assets/skill-mongo.png'), key: 'mongodb', value: 'MongoDB' }
     ],
     ewm: [
@@ -36,7 +39,7 @@ export default {
             icon: require('@/assets/skill-vue.png'),
             key: 'blogresume',
             value: '以往部分项目展示',
-            ewmimage: require('@/assets/ewm-miniapp.jpg')
+            ewmimage: require('@/assets/ewm.png')
         }
         // { icon: require('@/assets/skill-mongo.png'), key: 'mongodb', value: 'MongoDB' }
     ],
@@ -84,12 +87,12 @@ export default {
                 属个人创业期间参与本地公司业务的推广和实施，根据客户需求定制PC，手机，微信端多端功能展示。
                 在推广业务的过程中，积极向客户推广小程序业务的使用和实施
                 期间个人进行了多个公司业务定制的开发和维护，针对客户的多种需求进行定向定制，诸如国际化，投稿平台，反馈平台等
-                在发展个人开发业务能力的同时，也发展了个人业务推广能力，谈判能力和后期运行维护能力
+                在发展个人开发业务能力的同时，也发展了个人业务推广能力和后期运行维护能力
             `
         },
         {
             company: '武汉学点网络科技有限公司',
-            position: '前端开发工程师(偏向移动端)',
+            position: '前端开发工程师(移动端)',
             date: '2016/04-2017/04',
             description: `
             进行公司微信端活动页面定制开发，参与公司多个微信推广类项目整体实施，诸如阅读赚钱，徒弟推广等类微信营销类业务的页面和交互功能及前后端交互联调等。
@@ -102,7 +105,7 @@ export default {
         },
         {
             company: '十堰日报社秦楚网',
-            position: '前端开发工程师(偏向PC端)',
+            position: '前端开发工程师(PC端)',
             date: '2015/07-2016/04',
             description: `
             主要参与公司对企事业单位官网及专题页面制作，
